@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+</head>
+<body>
+    <h3> a) Head office address</h3>
+    <p>{{address}}</p>
+    <h3> b) Team leader: Phone number, mail address, office hours.</h3>
+    <p>{{devs.0.name}}
+        {{devs.0.phone}}
+        {{ devs.0.email}}
+        {{devs.0.hours}}</p>
+    <h3>Developer: Phone number, mail address, office hours.</h3>
+    <p>{{devs.1.name}}
+        {{devs.1.phone}}
+        {{devs.1.email}}
+        {{devs.1.hours}}</p>
+</body>
+</html>

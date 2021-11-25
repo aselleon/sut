@@ -1,0 +1,78 @@
+body{
+    position: relative; 
+    background-color: whitesmoke;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+    /* position: absolute; */
+}
+.navbar{
+    border-style: solid;
+    border-width: 0%;
+    border-color: #17C878;
+    position: relative;
+    /* width: fit-content; */
+    height: fit-content;
+}
+.navbar ul{
+    list-style: none;
+    display: inline-block;
+    /* margin: 1rem; */
+}
+.navbar ul li{
+    display: inline-block;
+    /* margin-top: 2rem; */
+}
+#Assel{
+    border-style: solid;
+    border-width: 0%;
+    border-color: #17C878;
+    text-decoration: none;
+    color: #17C878;
+    /* width: fit-content; */
+    padding: 0.7rem;
+    margin-top: 1rem;
+    position:absolute;
+}
+#Assel ul{
+    display: none;
+    list-style: none;
+}
+#Assel:hover ul{
+    display: block;
+}
+#Beket {
+    border-style: solid;
+    border-width: 0%;
+    border-color: #17C878;
+    text-decoration: none;
+    color: #17C878;
+    /* width: fit-content; */
+    padding: 0.7rem;
+    margin-top: 1rem;
+    margin-left: 10rem;
+    position: absolute;
+}
+#Beket ul{
+    display: none;
+    list-style: none;
+}
+#Beket:hover ul{
+    display: block;
+}
+/* .Assel_info{
+    display: none;
+    border-style: solid;
+    border-width: 0%;
+    border-color: #17C878;
+    width: fit-content;
+    border-radius: 1rem;
+} */
+/* .Beket_info{
+    border-style: solid;
+    border-width: 0%;
+    border-color: #17C878;
+    width: fit-content;
+    border-radius: 1rem;
+} */

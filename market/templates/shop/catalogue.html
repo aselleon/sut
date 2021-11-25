@@ -1,0 +1,28 @@
+{% load static %}
+{% for i in items %}
+    <div class="col-sm-2" id="{{ i.id }}">
+        <p>{{ i.p }}</p>
+        <img src="{{ i.src }}" alt="">
+    </div>
+{% endfor %}
+{#{% static '{{ i.scr }}' %}#}
+{#<div class="col-sm-2" id="cheeses">#}
+{#    <p>Сыры</p>#}
+{#    <img src="{% static "images/klipartz 1.svg" %}" alt="">#}
+{#</div>#}
+{#<div class="col-sm-2" id="tvorognmasses">#}
+{#    <p>Творог & творожные массы</p>#}
+{#    <img src="{% static "images/kisspng-milk-cottage-cheese-quark-dairy-products-curd-5b18559bca1172 1.svg" %}" alt="">#}
+{#</div>#}
+{#<div class="col-sm-2" id="butternmargarin">#}
+{#    <p>Сливочное масло  & маргарин</p>#}
+{#    <img src="{% static "images/butter_PNG16 1.svg" %}" alt="">#}
+{#</div>#}
+{#<div class="col-sm-2" id="milknslivki">#}
+{#    <p>Молоко &  Cливки</p>#}
+{#    <img src="{% static "images/kisspng-raw-milk-soy-milk-buttermilk-hemp-milk-milk-spray-5b0cd9ae0a91e5 1.svg" %}" alt="">#}
+{#</div>#}
+{#<div class="col-sm-2" id="milkmadedrinkables">#}
+{#    <p>Кисломолочные напитки</p>#}
+{#    <img src="{% static "images/1615894037_ymyz-removebg-preview 1.svg" %}" alt="">#}
+{#</div>#}

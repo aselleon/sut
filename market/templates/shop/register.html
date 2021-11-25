@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="regstyle.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+    <title>Registerpage</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light navbar-light">
+        <div class="container">
+            <a href="#" class="navbar-logo">
+                <img src="Vector.svg" alt="">
+            </a>
+            <button class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="navmenu"
+            aria-expanded="false" 
+            aria-controls="navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#bellring" class="nav-link">
+                            <img src="BellRinging.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#shoppingcart" class="nav-link">
+                            <img src="ShoppingCartSimple.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary" href="login.html" role="button">Войти</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 offset-4">
+                <!-- <ul class="navbar-nav flex-column">
+                    <li class="nav-item">
+                        input.
+                    </li>
+                </ul> -->
+                <form class="flex-column">
+                    <input class="form-control me-2" type="text" placeholder="Firstname" aria-label="Search">
+                    <input class="form-control me-2" type="text" placeholder="Secondname" aria-label="Search">
+                    <input class="form-control me-2" type="email" placeholder="e-mail address" aria-label="Search">
+                    <input class="form-control me-2" type="password" placeholder="password" aria-label="Search">
+                    <input class="form-control me-2" type="password" placeholder="Type again your password" aria-label="Search">
+                    <a class="btn btn-outline-success" href="index.html" type="submit">Login</a>
+                    <p>Alredy have account?</p>
+                    <a href="login.html" class="txt">Log-in</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
